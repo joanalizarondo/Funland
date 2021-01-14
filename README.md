@@ -13,3 +13,6 @@ A fictional theme park made with HTML and CSS.
 -css
 # What is the project for?
 The project was created to get comfortable with html and css. 
+
+# Disclamer
+This website is made for practise. All photos used here are not mine, however Illustrations are.
