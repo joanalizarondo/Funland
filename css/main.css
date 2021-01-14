@@ -1,0 +1,724 @@
+@media screen and (min-width: 375px){
+body {
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+    
+.container {
+    height: 50px;
+    width: 100%; 
+    margin: 0 auto;
+}
+header {
+    background-color: #f4a342;
+    justify-content: space-between;
+} 
+ 
+.logo {
+    float: left;
+    padding: 10px 0;
+    margin-left: 20px;
+    padding-top: 20px;
+    height: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hide-desktop {
+    float: right;
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.hide-desktop img{
+    width: 20px;
+}
+
+.nav_bar {
+    display: none;
+}
+
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background-color: #f4a342;
+    Height: 100%;
+    z-index: 7;
+    padding-top: 3em;
+}
+
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ffc681;
+}
+
+ .booknowcontainer{
+    background-color: #A1051D;;
+    padding: 5px 5px;
+
+} 
+
+.booknowcontainer a:hover {
+    background-color: rgb(252, 47, 47)051D;
+}
+
+.exit-btn {
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.bannercontainer{
+    position: relative;
+}
+
+ .banner_pic {
+    height:100%;
+    width: 100%;
+ } 
+
+.ad_25 {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    right: 20px;
+    top: 10%;
+    color: white;
+    font-size: 1em;
+    letter-spacing: .1rem;
+    font-family: "helvetica";
+}
+
+.banner_text {
+    position: absolute;
+    left: 34%;
+    top: 17%;
+    font-size: .5em;
+    letter-spacing: .01rem;
+    font-family: "helvetica";
+    margin: auto;
+}
+
+ .findoutmore {
+    text-decoration: none;
+    color: white;
+ }
+
+.addbooknow {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.offer {
+    padding-bottom: 110px;
+}
+.offer_container {
+    background-color: #A1051D;
+    width: 20%;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 35px;
+ }
+
+.offer_container p {
+    margin-left: 30%;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.offer1_img {
+    height: 80%;
+    width: 80%;
+    margin-left: 9%;
+    padding-top: 120px;
+    display: block;
+}
+
+.offer2_img {
+    height: 150px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 9%;
+    padding: 0;
+    margin-top: 0%;
+}
+
+.offer3_img {
+    height: 10%;
+    width: 80%;
+    margin-left: 9%;
+    top: 0px;
+    display: block;
+    position: relative;
+}
+
+.offer_word {
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    font-size: 1em;
+} 
+
+.offer_para { 
+    width: 320px;
+    line-break: break-all;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+.getdetails {
+    background-color: #f4a342;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 30px 10px;
+    width: 110px;
+    left: 100px;
+    top: 970px;
+    border-radius: 6px;
+}
+
+.getdetails a {
+    color: white;
+    text-decoration: none;
+    margin-left: 13px;
+}
+
+.view_offers {
+    background-color: white;
+    border-style: solid;
+    border-color: #f4a342;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 30px 10px;
+    width: 104px;
+    left: 100px;
+    top: 1010px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.view_offers a {
+    color: #f4a342;
+    text-decoration: none;
+}
+
+.explore_container {
+    size: 100%;
+    position: relative;
+    padding-bottom: 140%;
+    background-color:  #f4a342;
+}
+.exploreword {
+    background-color: #A1051D;
+    width: 20%;
+    left: 200px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 300px;
+    height: 40px;
+}
+
+.exploreword p {
+    margin-left: 5px;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+.rideword {
+    position: absolute;
+    background-color:   #f4a342;
+    top: 50px;
+    left: 34px;
+    width: 20%;
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: center;
+    letter-spacing: .1em;
+    margin: 0;
+}
+.ride_img {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    left: 9%;
+    top: 60px;
+}
+
+.restaurant_container p {
+    position: absolute;
+    background-color:   #f4a342;
+    top: 260px;
+    left: 34px;
+    width: 30%;
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: center;
+    letter-spacing: .1em;
+    margin: 0;
+    padding: 20px 10px 20px;
+}
+
+.restaurant_img {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    left: 9%;
+    top: 260px;
+}
+
+.parade_container p {
+    position: absolute;
+    background-color:   #f4a342;
+    top: 450px;
+    left: 34px;
+    width: 20%;
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: center;
+    letter-spacing: .1em;
+    margin: 0;
+    padding: 20px 10px 20px;
+}
+.parade_img {
+    position: absolute;
+    display: inline-block; 
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    left: 9%;
+    top: 450px;   
+}
+
+.visitnow {
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    border-color: #A1051D;
+    width: 80%;
+    height: 50px;
+    border-radius: .5em;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-top: 30px;
+}
+
+.visitnow a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    letter-spacing: .3em;
+    margin-left: 30px;
+    text-align: center;
+}
+
+footer {
+    margin-left: 10.5%;
+    margin-right: 10%;
+    border-top: solid;
+    border-top-color: #CBCBCB;
+    height: 100px;
+}
+ 
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footerlinks {
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-right: 0%;
+}
+
+.footerlinks a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: em;
+    font-size: .7em;
+}
+
+.about {
+    padding-right: 10px;
+}
+.contactus{
+    padding-right: 10px;
+}
+
+.helpcenter {
+    padding-left: px;
+    padding-right: 10px;
+}
+
+.legalstuff {
+    padding-right: 10px;
+}
+.connect_container {
+    margin-left: 105px;    
+    margin-top: 20px;
+    font-size: .8em;
+}
+
+.fb {
+    display: inline-block;
+    margin-left: -50px;
+    width: 25%;
+}
+
+.twitter {
+    display: inline-block;
+    margin-left: 5px;
+    width: 25%;
+}
+
+.utube {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px){
+
+.logo {
+    height: 20px;
+}
+
+.ad_25 {
+    top: 140px;
+    font-size: 1.5em;
+}
+
+.banner_text {
+    font-size: 1.5em;
+    top: 200px;
+    left: 30%;
+}
+
+.offer_word {
+    top: 420px;
+    left: 280px;
+}
+
+.offer_para {
+    top: 460px;
+    left: 230px;
+}
+
+.getdetails {
+    top: 1550px;
+    left: 290px;
+    padding: 15px 30px;
+}
+
+.view_offers {
+    top: 1600px;
+    left: 290px;
+}
+
+.offer {
+    margin-bottom: 100px;
+}
+
+.exploreword {
+    margin-left: 614px;
+    height: 50px;
+}
+
+.exploreword p{
+    font-size: 1.5em;
+}
+
+.ride_img {
+    padding-top: 20px;
+    width: 600px;
+}
+
+.rideword {
+    padding-top: 30px;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+.restaurant_img {
+    width: 600px;
+    top: 480px;
+}
+
+.restaurant_container p {
+    top: 480px;
+    font-size: 1em;
+}
+
+.parade_img {
+    width: 600px;
+    top: 800px;
+}
+
+.parade_container p {
+    top: 800px;
+    font-size: 1em;
+}
+
+.visitnow a {
+    margin-left: 200px;
+}
+
+footer a {
+    margin-left: 50px;
+}
+
+.connect_container p {
+    margin-left: 150px;
+}
+
+.fb {
+    width: 50px;
+}
+
+.utube {
+    width: 50px;
+}
+
+.twitter {
+    width: 50px;
+}
+
+.socialmedia {
+    margin-left: 60px;
+    padding-bottom: 40px;
+}
+
+}
+
+@media screen and (min-width: 1080px){
+
+    .logo {
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .container {
+        height: 70px;
+        margin: 0;
+    }
+
+    .nav_bar {
+        display: block;
+        margin: 0 0 13% auto;
+        padding-left: 62%;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+    
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 30px;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a{
+        color: white;
+        background-color: inherit;
+        text-align: right;
+        padding: 0em 2em;
+    }
+
+    nav ul li a:hover {
+        background-color: inherit;
+    }
+
+     .exit-btn {
+         display: none;
+     }
+
+     .booknowcontainer {
+         padding: 30px 5px 20px 5px;
+         margin-top: -30px;
+     }
+     
+    .ad_25 {
+        top: 370px;
+        font-size: 3em;
+    }
+    .banner_text {
+        top: 500px;
+        left: 800px;
+    }
+
+    .offer_container p {
+        font-size: 1.5em;
+        padding-left: 50px;
+    }
+
+    .offer_container {
+        height: 50px;
+        width: 200px;
+    }
+
+    .offer1_img {
+        width: 700px;
+        margin-left: 300px;
+    }
+
+    .offer2_img {
+        position: absolute;
+        top: 1096px;
+        left: 800px;
+        width: 700px;
+        height: 310px;
+    }
+
+    .offer3_img {
+        position: absolute;
+        width: 700px;
+        height: 360px;
+        top: 1400px;
+        left: 800px;
+    }
+
+    .offer {
+        margin-bottom: 350px;
+    }
+
+    .offer_word {
+        font-size: 1.5em;
+        left: 400px;
+        top: 1450px;
+    }
+
+    .offer_para {
+        top: 1500px;
+        left: 400px;
+        font-size: 1.5em;
+    }
+
+    .getdetails {
+        left: 480px;
+        top: 1680px;
+    }
+
+    .view_offers {
+        left: 480px;
+        top: 1730px;
+    }
+
+    .exploreword {
+        margin-left: 1702px;
+        width: 180px;
+        padding: 0px 10px;
+    }
+
+    .explore_container {
+        padding-bottom: 50%;
+    }
+
+    .ride_img {
+        left: 300px;
+        width: 700px
+    }
+
+    .restaurant_img{
+        width: 700px;
+        left: 1000px;
+        top: 80px;
+    }
+
+    .parade_img {
+        width: 1400px;
+        height: 500px;
+        left: 300px;
+        top: 500px;
+    }
+
+    .rideword {
+        left: 300px;
+        width: 130px;
+    }
+
+
+    .explore_container p {
+        display: absolute;
+        left: 1000px;
+        top: 80px;
+        width: 200px;
+    }
+
+    .parade_container p {
+        top: 500px;
+        left: 300px;
+    }
+
+    .visitnow {
+        padding: 5% 2% 5% 0;
+    }
+    .visitnow a {
+        font-size: 3em;
+        margin-left: 450px;
+    }
+
+    footer {
+        font-size: 1.5em;
+    }
+
+    .footerlinks {
+        margin-left: 460px;
+    }
+
+    .connect_container {
+        margin-top: 20px;
+        margin-left: 520px;
+    }
+
+    .socialmedia {
+        margin-left: 80px;
+    }
+}
+
